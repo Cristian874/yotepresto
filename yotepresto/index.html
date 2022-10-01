@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Préstamos personales e inversiones</title>
+
+    <!-- link fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <!-- link normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- link css -->
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__barra contenedor">
+        <div class="header__logo">
+          <a href="index.html" class="header__logotipo">
+            <h1 class="header__heading">
+              yo<span class="header__span">tepresto</span>
+            </h1>
+          </a>
+          <img src="img/menu.png" alt="Icono menu" class="header__menu" />
+        </div>
+        <!-- logo -->
+        <nav class="header__navegacion">
+          <a href="#" class="header__link">Quiero un préstamo</a>
+          <a href="#" class="header__link">Cambia tu deuda</a>
+          <a href="#" class="header__link">Quiero prestar</a>
+          <a href="#" class="header__link header__link--blanco">Ingresar</a>
+          <a href="#" class="header__link header__link--verde">Registrate</a>
+        </nav>
+        <!-- navegacion -->
+      </div>
+      <!-- barrra -->
+    </header>
+
+    <div class="banner">
+      <div class="banner__grid">
+        <div class="banner__contenido">
+          <h2 class="banner__heading">
+            Préstamos e inversiones entre personas a tasas justas
+          </h2>
+          <div class="banner__botones">
+            <a href="#" class="banner__boton boton">Quiero Prestar</a>
+            <a href="#" class="banner__boton boton">Quiero un Préstamo</a>
+          </div>
+        </div>
+        <!-- contenido -->
+        <div class="banner__imagen">
+          <img src="img/banner.jpg" alt="Imagen Banner" class="banner__img" />
+        </div>
+      </div>
+    </div>
+
+    <div class="palomita contenedor margin">
+      <div class="palomita__grid">
+        <div class="palomita__contenido">
+          <img
+            src="img/palomita.png"
+            alt="Imagen palomita"
+            class="palomita__img"
+          />
+          <p class="palomita__texto">Tasas Justas</p>
+        </div>
+        <!-- contenido -->
+
+        <div class="palomita__contenido">
+          <img
+            src="img/palomita.png"
+            alt="Imagen palomita"
+            class="palomita__img"
+          />
+          <p class="palomita__texto">Sin Bancos</p>
+        </div>
+        <!-- contenido -->
+
+        <div class="palomita__contenido">
+          <img
+            src="img/palomita.png"
+            alt="Imagen palomita"
+            class="palomita__img"
+          />
+          <p class="palomita__texto">100% online</p>
+        </div>
+        <!-- contenido -->
+      </div>
+      <!-- grid -->
+    </div>
+
+    <div class="funciona contenedor margin">
+      <div class="funciona__grid">
+        <div class="funciona__contenido">
+          <p class="funciona__title">¿Cómo Funciona?</p>
+          <h2 class="funciona__heading">Conectamos a personas</h2>
+        </div>
+        <!-- contenido -->
+
+        <div class="funciona__registro">
+          <p class="funciona__texto">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita,
+            veritatis voluptas ipsum assumenda corrupti fugit, deleniti nemo
+            optio possimus dolores tempora earum, minima sapiente eum provident
+            magnam. Cumque, odit qui?
+          </p>
+          <a href="#" class="funciona__boton boton">Registrate</a>
+        </div>
+        <!-- contenido -->
+      </div>
+      <!-- grid -->
+    </div>
+
+    <div class="video margin contenedor">
+      <iframe
+        class="video__play"
+        src="https://www.youtube.com/embed/EQjQ-Z3y1Jw"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <main class="numeros contenedor margin">
+      <p class="numeros__resultado">Resultados</p>
+      <h2 class="numeros__titulo">Yotepresto en números</h2>
+
+      <div class="numeros__grid">
+        <div class="numeros__contenido">
+          <h2 class="numeros__heading">
+            +1 <span class="numeros__span"> millón </span>
+          </h2>
+          <p class="numeros__texto">+1 millón de usuarios registrados</p>
+        </div>
+        <div class="numeros__contenido">
+          <img
+            src="img/persona.jpg"
+            alt="Imagen Persona"
+            class="numeros__img"
+          />
+        </div>
+        <div class="numeros__contenido">
+          <h2 class="numeros__heading">
+            96% <span class="numeros__span"> millón </span>
+          </h2>
+          <p class="numeros__texto">
+            El 96% de nuestros acreditados pagan a tiempo
+          </p>
+        </div>
+        <div class="numeros__contenido">
+          <img
+            src="img/persona.jpg"
+            alt="Imagen Persona"
+            class="numeros__img"
+          />
+        </div>
+        <div class="numeros__contenido">
+          <h2 class="numeros__heading">8.9 %</h2>
+          <p class="numeros__texto">
+            Tasas desde 8.9% para nuestros acreditados
+          </p>
+        </div>
+        <div class="numeros__contenido">
+          <img
+            src="img/persona.jpg"
+            alt="Imagen Persona"
+            class="numeros__img"
+          />
+        </div>
+        <div class="numeros__contenido">
+          <h2 class="numeros__heading">
+            1,500 <span class="numeros__span"> millón</span>
+          </h2>
+          <p class="numeros__texto">+1,500 millones en prestamos entregados</p>
+        </div>
+        <div class="numeros__contenido">
+          <img
+            src="img/persona.jpg"
+            alt="Imagen Persona"
+            class="numeros__img"
+          />
+        </div>
+        <div class="numeros__contenido">
+          <h2 class="numeros__heading">
+            16% <span class="numeros__span"> millón</span>
+          </h2>
+          <p class="numeros__texto">
+            Rendimiento promedio de 16% anual para nuestros inversionistas
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <section class="prensa contenedor margin">
+      <p class="prensa__titulo">Prensa</p>
+      <h2 class="prensa__title">Presencia en medios</h2>
+
+      <div class="prensa__grid">
+        <div class="prensa__card">
+          <h2 class="prensa__heading">El Economista</h2>
+          <p class="prensa__texto">
+            Más inversionistas y crecer el portafolio 100%, lo que viene para
+            Yotepresto tras autorización
+          </p>
+
+          <div class="prensa__footer">
+            <p class="prensa__fecha">May 2022</p>
+            <a href="#" class="prensa__boton">Conoce más</a>
+          </div>
+          <!-- footer -->
+        </div>
+        <!-- card -->
+
+        <div class="prensa__video">
+          <iframe
+            class="prensa__video"
+            src="https://www.youtube.com/embed/EQjQ-Z3y1Jw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <!-- video -->
+      </div>
+      <!-- grid -->
+    </section>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper margin">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="swiper__contenido">
+            <h2 class="swiper__heading">El Financiero</h2>
+            <p class="swiper__texto">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
+              fuga blanditiis modi culpa perspiciatis quod voluptatum omnis sunt
+              iure nam rerum ducimus soluta, ea repellat praesentium commodi
+              ratione sit voluptatem?
+            </p>
+            <p class="swiper__fecha">November 2020</p>
+            <a href="#" class="swiper__enlace">Conoce más</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="swiper__contenido">
+            <h2 class="swiper__heading">El Economista</h2>
+            <p class="swiper__texto">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
+              fuga blanditiis modi culpa perspiciatis quod voluptatum omnis sunt
+              iure nam rerum ducimus soluta, ea repellat praesentium commodi
+              ratione sit voluptatem?
+            </p>
+            <p class="swiper__fecha">November 2020</p>
+            <a href="#" class="swiper__enlace">Conoce más</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="swiper__contenido">
+            <h2 class="swiper__heading">El Economista</h2>
+            <p class="swiper__texto">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
+              fuga blanditiis modi culpa perspiciatis quod voluptatum omnis sunt
+              iure nam rerum ducimus soluta, ea repellat praesentium commodi
+              ratione sit voluptatem?
+            </p>
+            <p class="swiper__fecha">November 2020</p>
+            <a href="#" class="swiper__enlace">Conoce más</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="swiper__contenido">
+            <h2 class="swiper__heading">El Indigo</h2>
+            <p class="swiper__texto">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
+              fuga blanditiis modi culpa perspiciatis quod voluptatum omnis sunt
+              iure nam rerum ducimus soluta, ea repellat praesentium commodi
+              ratione sit voluptatem?
+            </p>
+            <p class="swiper__fecha">November 2020</p>
+            <a href="#" class="swiper__enlace">Conoce más</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="swiper__contenido">
+            <h2 class="swiper__heading">El Financiero</h2>
+            <p class="swiper__texto">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
+              fuga blanditiis modi culpa perspiciatis quod voluptatum omnis sunt
+              iure nam rerum ducimus soluta, ea repellat praesentium commodi
+              ratione sit voluptatem?
+            </p>
+            <p class="swiper__fecha">November 2020</p>
+            <a href="#" class="swiper__enlace">Conoce más</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="swiper__contenido">
+            <h2 class="swiper__heading">El Economista</h2>
+            <p class="swiper__texto">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
+              fuga blanditiis modi culpa perspiciatis quod voluptatum omnis sunt
+              iure nam rerum ducimus soluta, ea repellat praesentium commodi
+              ratione sit voluptatem?
+            </p>
+            <p class="swiper__fecha">November 2020</p>
+            <a href="#" class="swiper__enlace">Conoce más</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="swiper__contenido">
+            <h2 class="swiper__heading">Indigo</h2>
+            <p class="swiper__texto">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
+              fuga blanditiis modi culpa perspiciatis quod voluptatum omnis sunt
+              iure nam rerum ducimus soluta, ea repellat praesentium commodi
+              ratione sit voluptatem?
+            </p>
+            <p class="swiper__fecha">November 2020</p>
+            <a href="#" class="swiper__enlace">Conoce más</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="swiper__contenido">
+            <h2 class="swiper__heading">El Dinero</h2>
+            <p class="swiper__texto">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
+              fuga blanditiis modi culpa perspiciatis quod voluptatum omnis sunt
+              iure nam rerum ducimus soluta, ea repellat praesentium commodi
+              ratione sit voluptatem?
+            </p>
+            <p class="swiper__fecha">November 2020</p>
+            <a href="#" class="swiper__enlace">Conoce más</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="swiper__contenido">
+            <h2 class="swiper__heading">El Financiero</h2>
+            <p class="swiper__texto">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
+              fuga blanditiis modi culpa perspiciatis quod voluptatum omnis sunt
+              iure nam rerum ducimus soluta, ea repellat praesentium commodi
+              ratione sit voluptatem?
+            </p>
+            <p class="swiper__fecha">November 2020</p>
+            <a href="#" class="swiper__enlace">Conoce más</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="swiper__contenido">
+            <h2 class="swiper__heading">Indigo</h2>
+            <p class="swiper__texto">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
+              fuga blanditiis modi culpa perspiciatis quod voluptatum omnis sunt
+              iure nam rerum ducimus soluta, ea repellat praesentium commodi
+              ratione sit voluptatem?
+            </p>
+            <p class="swiper__fecha">November 2020</p>
+            <a href="#" class="swiper__enlace">Conoce más</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="testimonios margin">
+      <div class="testimonios__grid">
+        <div class="testimonios__contenido">
+          <p class="testimonios__titulo">testimonios</p>
+          <h2 class="testimonios__heading">Han confiado en nosotros</h2>
+          <p class="testimonios__texto">
+            "Antes pagaba mucho dinero por mis tarjetas de crédito, Ahora, con
+            mi préstamo me ahorro cerca del 50% en intereses ¡lo recomiendo!"
+          </p>
+          <div class="testimonios__botones">
+            <a href="#" class="testimonios__boton boton">Registrate</a>
+          </div>
+        </div>
+        <!-- contenido -->
+        <div class="testimonios__imagen">
+          <img
+            src="img/banner2.jpg"
+            alt="Imagen Banner"
+            class="testimonios__img"
+          />
+        </div>
+      </div>
+    </div>
+
+    <section class="dudas margin contenedor">
+      <div class="dudas__grid">
+        <div class="dudas__informacion">
+          <p class="dudas__titulo">¿Tienes Dudas?</p>
+          <h2 class="dudas__heading">Preguntas Frecuentes</h2>
+        </div>
+
+        <div class="dudas__contenido">
+          <div class="dudas__card">
+            <div class="dudas__imagen">
+              <img
+                src="img/persona.png"
+                alt="Imagen Persona"
+                class="dudas__img"
+              />
+            </div>
+            <!-- imagen -->
+            <div class="dudas__preguntas">
+              <h2 class="dudas__subtitle">Acreditados</h2>
+
+              <p class="dudas__pregunta">
+                ¿Cuáles son los requisitos para obtener un préstamo?
+              </p>
+              <p class="dudas__pregunta">¿Cuánto puedo pedir?</p>
+              <a href="#" class="dudas__boton boton">Ver más preguntas</a>
+            </div>
+            <!-- preguntas -->
+          </div>
+          <!-- card -->
+
+          <div class="dudas__card">
+            <div class="dudas__imagen">
+              <img
+                src="img/persona.png"
+                alt="Imagen Persona"
+                class="dudas__img"
+              />
+            </div>
+            <!-- imagen -->
+            <div class="dudas__preguntas">
+              <h2 class="dudas__subtitle">Prestamistas</h2>
+
+              <p class="dudas__pregunta">¿Cómo puedo empezar a invertir?</p>
+              <p class="dudas__pregunta">
+                ¿Cuánto es lo mínimo que puedo invertir?
+              </p>
+              <p class="dudas__pregunta">
+                ¿Qué riesgo tengo al prestar mi dinero?
+              </p>
+              <a href="#" class="dudas__boton boton">Ver más preguntas</a>
+            </div>
+            <!-- preguntas -->
+          </div>
+          <!-- card -->
+        </div>
+        <!-- contenido -->
+      </div>
+      <!-- grid -->
+    </section>
+
+    <footer class="footer margin">
+      <div class="footer__grid contenedor">
+        <div class="footer__widget">
+          <h2 class="header__heading">
+            yo<span class="header__span">tepresto</span>
+          </h2>
+          <p class="footer__texto">
+            Prado de los Cedros 1300 interior edificio C. Col. Cd, Del Sol,
+            Zapopan, Jalisco, CP 45050.
+          </p>
+        </div>
+        <!-- WIDGET -->
+
+        <div class="footer__widget">
+          <h2 class="footer__titulo">Siguenos</h2>
+          <div class="footer__imagenes">
+            <img
+              src="img/facebook.png"
+              alt="Imagen Icono"
+              class="footer__img"
+            />
+            <img src="img/gorjeo.png" alt="Imagen Icono" class="footer__img" />
+            <img src="img/youtube.png" alt="Imagen Icono" class="footer__img" />
+            <img
+              src="img/linkedin.png"
+              alt="Imagen Icono"
+              class="footer__img"
+            />
+          </div>
+        </div>
+        <!-- WIDGET -->
+
+        <div class="footer__widget">
+          <h2 class="footer__titulo">Descarga la app para invertir</h2>
+          <div class="footer__imagenes">
+            <img
+              src="img/google.svg"
+              alt="Imagen Icono"
+              class="footer__img footer__img--tiendas"
+            />
+            <img
+              src="img/store.svg"
+              alt="Imagen Icono"
+              class="footer__img footer__img--tiendas"
+            />
+          </div>
+        </div>
+        <!-- WIDGET -->
+      </div>
+      <!-- GRID -->
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="js/swiper.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
